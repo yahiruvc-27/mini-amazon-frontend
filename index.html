@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Mini Amazon</title>
+  <link rel="stylesheet" href="/style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Mini Amazon</h1>
+    <p id="subtitle">This EC2 Web instance is in <span id="az-name"></span></p>
+  </header>
+
+  <main>
+    <h2>Products</h2>
+    <div id="product-grid" class="grid">Loading products...</div>
+
+    <section id="cart-section">
+      <h2>Your Cart</h2>
+      <ul id="cart-list">Cart is empty</ul>
+      <button id="checkout-btn" onclick="checkout()" disabled>Checkout</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Thanks for using the best 3-tier architecture in the world</p>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
